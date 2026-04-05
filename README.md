@@ -1,7 +1,6 @@
 # Rubik's Cube Solver
 
-A deep reinforcement learning agent that learns to solve the 3×3×3 Rubik's Cube. It trains a neural network to predict the minimum number of moves to a solved state, then uses that heuristic inside an A\* search to find solutions.
-
+A 3x3x3 Rubik's Cube solver that uses a supervised neural network trained with Bellman targets employing curriculum learning as a heuristic for A* search.
 ---
 
 ## How It Works
@@ -14,7 +13,7 @@ The solver combines two components:
    V(s) = 1 + min_a V(s')    for all successor states s'
    ```
 
-   Training uses **curriculum learning** (scramble depth increases gradually from 2 → 30 moves) and a **target network** (updated every 400 epochs) for stable bootstrapped targets.
+   Training uses **curriculum learning** (scramble depth increases gradually from 2 → 29 moves) and a **target network** (updated every 400 epochs) for stable bootstrapped targets.
 
 2. **A\* Search (`solve`)** — At inference time, A\* searches over the cube's state space. The trained network serves as the heuristic `h(n)`, and `g(n)` is the actual move count from the start state. The search explores nodes by ascending `f(n) = g(n) + h(n)`.
 
@@ -55,7 +54,7 @@ rubiks-solver/
 ├── nn.py              # Neural network architecture and training loop
 ├── solver.py          # A* search algorithm
 ├── model.pth          # Pre-trained model weights
-└── training.log       # Sample training log (50k epochs on GPU)
+└── training.log       # Sample training log 
 ```
 
 ---
@@ -81,7 +80,7 @@ pip install torch numpy
 Load the pre-trained model and solve a cube scrambled with a sequence of moves:
 
 ```bash
-python main.py --solve "R U R' U' R' F R2 U' R' U' R U R' F'"
+python main.py --solve "R U D R' U' F"
 ```
 
 The solver prints each move in the solution path and the number of nodes explored.
@@ -89,7 +88,7 @@ The solver prints each move in the solution path and the number of nodes explore
 **Increase the node budget** for harder scrambles (default: 10,000):
 
 ```bash
-python main.py --solve "R U R' U' F2 D L2" --max-nodes 50000
+python main.py --solve "R U R' U' F2 D L2 R" --max-nodes 50000
 ```
 
 ### Train a New Model
@@ -135,20 +134,12 @@ The training log (`training.log`) records a run of ~11,000 epochs on a GPU. Key 
 
 - Epochs 1–400: Scramble depth 2, loss converges near 0 quickly.
 - Epochs 400–4,000: Depth ramps up 2→10, loss stays in the 0.05–0.6 range as the network adapts.
-- Epochs 4,000–11,000: Depth reaches 26–29 moves; loss stabilizes ~0.15–0.20.
-
-Full training (50,000 epochs, depth up to 30) is needed for the best-quality heuristic.
+- Epochs 4,000–11,000: Depth reaches 29 moves; loss stabilizes ~0.15–0.20.
 
 ---
 
 ## Limitations
 
-- **Optimality**: A\* with a learned (inadmissible) heuristic finds *a* solution, not necessarily the shortest one.
+- **Optimality**: A\* with a learned heuristic finds *a* solution, not necessarily the shortest one.
 - **Node budget**: Very deeply scrambled cubes may require a large `--max-nodes` value to solve.
 - **Training time**: Full training requires a GPU and several hours to reach good heuristic quality.
-
----
-
-## License
-
-This project is provided as-is for educational purposes.
