@@ -1,7 +1,6 @@
 # Rubik's Cube Solver
 
-A 3x3x3 Rubik's Cube solver that uses a supervised neural network trained with Bellman targets employing curriculum learning as a heuristic for A* search.
----
+A 3x3x3 Rubik's Cube solver that uses a supervised neural network trained with Bellman targets employing curriculum learning as a heuristic for A\* search.
 
 ## How It Works
 
