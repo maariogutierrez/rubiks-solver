@@ -1,0 +1,150 @@
+Using device: cuda
+--- Target Network Updated ---
+Epoch 100 | Max Scramble: 2 | Loss: 0.0009
+Epoch 200 | Max Scramble: 2 | Loss: 0.0000
+Epoch 300 | Max Scramble: 2 | Loss: 0.0000
+Epoch 400 | Max Scramble: 2 | Loss: 0.0000
+--- Target Network Updated ---
+Epoch 500 | Max Scramble: 3 | Loss: 0.0026
+Epoch 600 | Max Scramble: 3 | Loss: 0.0014
+Epoch 700 | Max Scramble: 3 | Loss: 0.0012
+Epoch 800 | Max Scramble: 3 | Loss: 0.0015
+--- Target Network Updated ---
+Epoch 900 | Max Scramble: 4 | Loss: 0.1262
+Epoch 1000 | Max Scramble: 4 | Loss: 0.0874
+Checkpoint saved: checkpoint_epoch_1000.pth
+Epoch 1100 | Max Scramble: 4 | Loss: 0.0464
+Epoch 1200 | Max Scramble: 4 | Loss: 0.0314
+--- Target Network Updated ---
+Epoch 1300 | Max Scramble: 5 | Loss: 0.5906
+Epoch 1400 | Max Scramble: 5 | Loss: 0.4587
+Epoch 1500 | Max Scramble: 5 | Loss: 0.2797
+Epoch 1600 | Max Scramble: 5 | Loss: 0.2323
+--- Target Network Updated ---
+Epoch 1700 | Max Scramble: 6 | Loss: 0.3822
+Epoch 1800 | Max Scramble: 6 | Loss: 0.4065
+Epoch 1900 | Max Scramble: 6 | Loss: 0.5065
+Epoch 2000 | Max Scramble: 6 | Loss: 0.2820
+Checkpoint saved: checkpoint_epoch_2000.pth
+--- Target Network Updated ---
+Epoch 2100 | Max Scramble: 7 | Loss: 0.2662
+Epoch 2200 | Max Scramble: 7 | Loss: 0.3242
+Epoch 2300 | Max Scramble: 7 | Loss: 0.1940
+Epoch 2400 | Max Scramble: 7 | Loss: 0.3455
+--- Target Network Updated ---
+Epoch 2500 | Max Scramble: 8 | Loss: 0.1580
+Epoch 2600 | Max Scramble: 8 | Loss: 0.1109
+Epoch 2700 | Max Scramble: 8 | Loss: 0.1514
+Epoch 2800 | Max Scramble: 8 | Loss: 0.1297
+--- Target Network Updated ---
+Epoch 2900 | Max Scramble: 9 | Loss: 0.0818
+Epoch 3000 | Max Scramble: 9 | Loss: 0.1145
+Checkpoint saved: checkpoint_epoch_3000.pth
+Epoch 3100 | Max Scramble: 9 | Loss: 0.0683
+Epoch 3200 | Max Scramble: 9 | Loss: 0.0633
+--- Target Network Updated ---
+Epoch 3300 | Max Scramble: 10 | Loss: 0.0810
+Epoch 3400 | Max Scramble: 10 | Loss: 0.0629
+Epoch 3500 | Max Scramble: 10 | Loss: 0.0674
+Epoch 3600 | Max Scramble: 10 | Loss: 0.0596
+--- Target Network Updated ---
+Epoch 3700 | Max Scramble: 11 | Loss: 0.0680
+Epoch 3800 | Max Scramble: 11 | Loss: 0.0654
+Epoch 3900 | Max Scramble: 11 | Loss: 0.0662
+Epoch 4000 | Max Scramble: 11 | Loss: 0.0699
+Checkpoint saved: checkpoint_epoch_4000.pth
+--- Target Network Updated ---
+Epoch 4100 | Max Scramble: 12 | Loss: 0.1170
+Epoch 4200 | Max Scramble: 12 | Loss: 0.1248
+Epoch 4300 | Max Scramble: 12 | Loss: 0.0803
+Epoch 4400 | Max Scramble: 12 | Loss: 0.0664
+--- Target Network Updated ---
+Epoch 4500 | Max Scramble: 13 | Loss: 0.1628
+Epoch 4600 | Max Scramble: 13 | Loss: 0.2269
+Epoch 4700 | Max Scramble: 13 | Loss: 0.1417
+Epoch 4800 | Max Scramble: 13 | Loss: 0.1060
+--- Target Network Updated ---
+Epoch 4900 | Max Scramble: 14 | Loss: 0.1498
+Epoch 5000 | Max Scramble: 14 | Loss: 0.1589
+Checkpoint saved: checkpoint_epoch_5000.pth
+Epoch 5100 | Max Scramble: 14 | Loss: 0.1818
+Epoch 5200 | Max Scramble: 14 | Loss: 0.1386
+--- Target Network Updated ---
+Epoch 5300 | Max Scramble: 15 | Loss: 0.1658
+Epoch 5400 | Max Scramble: 15 | Loss: 0.1752
+Epoch 5500 | Max Scramble: 15 | Loss: 0.1098
+Epoch 5600 | Max Scramble: 15 | Loss: 0.1084
+--- Target Network Updated ---
+Epoch 5700 | Max Scramble: 16 | Loss: 0.1876
+Epoch 5800 | Max Scramble: 16 | Loss: 0.1541
+Epoch 5900 | Max Scramble: 16 | Loss: 0.1447
+Epoch 6000 | Max Scramble: 16 | Loss: 0.1450
+Checkpoint saved: checkpoint_epoch_6000.pth
+--- Target Network Updated ---
+Epoch 6100 | Max Scramble: 17 | Loss: 0.2543
+Epoch 6200 | Max Scramble: 17 | Loss: 0.1556
+Epoch 6300 | Max Scramble: 17 | Loss: 0.0945
+Epoch 6400 | Max Scramble: 17 | Loss: 0.1643
+--- Target Network Updated ---
+Epoch 6500 | Max Scramble: 18 | Loss: 0.2117
+Epoch 6600 | Max Scramble: 18 | Loss: 0.2011
+Epoch 6700 | Max Scramble: 18 | Loss: 0.2000
+Epoch 6800 | Max Scramble: 18 | Loss: 0.1451
+--- Target Network Updated ---
+Epoch 6900 | Max Scramble: 19 | Loss: 0.1951
+Epoch 7000 | Max Scramble: 19 | Loss: 0.1326
+Checkpoint saved: checkpoint_epoch_7000.pth
+Epoch 7100 | Max Scramble: 19 | Loss: 0.1455
+Epoch 7200 | Max Scramble: 19 | Loss: 0.1458
+--- Target Network Updated ---
+Epoch 7300 | Max Scramble: 20 | Loss: 0.1747
+Epoch 7400 | Max Scramble: 20 | Loss: 0.2156
+Epoch 7500 | Max Scramble: 20 | Loss: 0.1819
+Epoch 7600 | Max Scramble: 20 | Loss: 0.1683
+--- Target Network Updated ---
+Epoch 7700 | Max Scramble: 21 | Loss: 0.2005
+Epoch 7800 | Max Scramble: 21 | Loss: 0.1642
+Epoch 7900 | Max Scramble: 21 | Loss: 0.3155
+Epoch 8000 | Max Scramble: 21 | Loss: 0.2251
+Checkpoint saved: checkpoint_epoch_8000.pth
+--- Target Network Updated ---
+Epoch 8100 | Max Scramble: 22 | Loss: 0.2105
+Epoch 8200 | Max Scramble: 22 | Loss: 0.2641
+Epoch 8300 | Max Scramble: 22 | Loss: 0.2075
+Epoch 8400 | Max Scramble: 22 | Loss: 0.2226
+--- Target Network Updated ---
+Epoch 8500 | Max Scramble: 23 | Loss: 0.2536
+Epoch 8600 | Max Scramble: 23 | Loss: 0.3002
+Epoch 8700 | Max Scramble: 23 | Loss: 0.1927
+Epoch 8800 | Max Scramble: 23 | Loss: 0.3099
+--- Target Network Updated ---
+Epoch 8900 | Max Scramble: 24 | Loss: 0.1832
+Epoch 9000 | Max Scramble: 24 | Loss: 0.2057
+Checkpoint saved: checkpoint_epoch_9000.pth
+Epoch 9100 | Max Scramble: 24 | Loss: 0.2061
+Epoch 9200 | Max Scramble: 24 | Loss: 0.1811
+--- Target Network Updated ---
+Epoch 9300 | Max Scramble: 25 | Loss: 0.2576
+Epoch 9400 | Max Scramble: 25 | Loss: 0.1874
+Epoch 9500 | Max Scramble: 25 | Loss: 0.1768
+Epoch 9600 | Max Scramble: 25 | Loss: 0.2307
+--- Target Network Updated ---
+Epoch 9700 | Max Scramble: 26 | Loss: 0.1726
+Epoch 9800 | Max Scramble: 26 | Loss: 0.1498
+Epoch 9900 | Max Scramble: 26 | Loss: 0.1472
+Epoch 10000 | Max Scramble: 26 | Loss: 0.1686
+Checkpoint saved: checkpoint_epoch_10000.pth
+--- Target Network Updated ---
+Epoch 10100 | Max Scramble: 27 | Loss: 0.1821
+Epoch 10200 | Max Scramble: 27 | Loss: 0.1757
+Epoch 10300 | Max Scramble: 27 | Loss: 0.1683
+Epoch 10400 | Max Scramble: 27 | Loss: 0.1519
+--- Target Network Updated ---
+Epoch 10500 | Max Scramble: 28 | Loss: 0.1683
+Epoch 10600 | Max Scramble: 28 | Loss: 0.1465
+Epoch 10700 | Max Scramble: 28 | Loss: 0.2142
+Epoch 10800 | Max Scramble: 28 | Loss: 0.2116
+--- Target Network Updated ---
+Epoch 10900 | Max Scramble: 29 | Loss: 0.1513
+Epoch 11000 | Max Scramble: 29 | Loss: 0.1562
+Checkpoint saved: checkpoint_epoch_11000.pth

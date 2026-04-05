@@ -46,6 +46,9 @@ class RubiksEngine:
         self.state = np.zeros((6, 3, 3), dtype=int)
         for face in range(6):
             self.state[face] = np.full((3, 3), face + 1)
+        
+        # Store the solved state for reference/comparison
+        self.solved_state = self.state.copy()
             
         # --- Adjacency Definitions (Rings) ---
         # Define the 12 adjacent sticker coordinates for each face in CLOCKWISE order.
